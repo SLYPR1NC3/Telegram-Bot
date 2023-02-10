@@ -19,7 +19,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-    await message.answer("Привет! Это тестовый бот!")
+    await message.answer("This TESTING BOT")
 
 
 @dp.message_handler(commands=['help'])
